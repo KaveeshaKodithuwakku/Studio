@@ -1,0 +1,367 @@
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
+
+html{
+    scroll-behavior: smooth !important;
+}
+
+
+*{
+    font-family: "Play", sans-serif;
+}
+
+body::-webkit-scrollbar{
+    width: 10px;
+}
+
+body::-webkit-scrollbar-track{
+    background-color: #bdc3c7;
+}
+
+body::-webkit-scrollbar-thumb{
+    background-color: #e67e22;
+    border-radius: 10px;
+}
+
+/* header area */
+
+.header-outer{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+}
+
+.navbar-brand img{
+    height: 50px;
+}
+
+.back-to-top-outer{
+    width: 50px;
+    height: 50px;
+    background-color: #d35400;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    border-radius: 3px;
+    box-shadow: 2px 2px 4px #34495e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.back-to-top-outer a{
+    text-decoration: none;
+    width: 50px;
+    height: 50px;
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+}
+.fa-solid{
+    font-size: 18px;
+    color: white;
+}
+/* header area */
+
+.outer{
+    width: 100%;
+    height: 500px;
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* home area */
+
+.home-outer{
+    width: 100%;
+    height: 90vh;
+    background-image: url('https://img.freepik.com/free-photo/top-view-laptop-glasses-notepad-dark-textured-background_169016-43217.jpg?t=st=1709829483~exp=1709833083~hmac=2640c264aa864319a5cdebfc852a9bf017b687ac9becb37a69c4a8fa2a7636c3&w=1380');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.home-container{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.title-text{
+    color: white;
+}
+
+.header-title{
+    color: white;
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 45px;
+}
+
+.home-widgets-outer{
+    margin-top: -120px;
+}
+
+.widget-outer{
+    height: 300px;
+    margin-bottom: 20px;
+}
+
+.widget-inner{
+    width: 100%;
+    height: 100%;
+    border: 1px solid #bdc3c7;
+    border-radius: 3px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.widget-inner-top{
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+
+.widget-inner-bottom{
+    flex: 1;
+    padding: 10px;
+}
+
+.widget-icon{
+    width: 80px;
+    height: 80px;
+    background-color: #FF214F;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.widget-icon svg{
+    width: 70%;
+    height: 70%;
+
+}
+
+.widget-header{
+    text-align: center;
+    font-size: 20px;
+}
+
+.widget-desc{
+    text-align: center;
+    color: #34495e;
+}
+
+/* home area */
+
+/* Service area */
+
+.service-outer{
+    min-height: 750px;
+    width: 100%;
+    background-image: url('https://images02.nicepage.com/c461c07a441a5d220e8feb1a/24af2a14af16514caf47360a/33581d05cec4a3308cd79979a51eed9d.jpeg');
+    background-size: cover;
+    background-position: left;
+}
+
+.service-container{
+     min-height: 750px;
+}
+
+.row{
+    height: 100%;
+}
+
+.service-container-inner{
+    height: 100%;
+}
+
+.service-right-side{
+  min-height: 750px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-top{
+    height: 350px;
+       background-color: white;
+   /* opacity: 0.5; */
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.right-top:last-child{
+    margin-bottom: 0;
+}
+
+.right-bottom{
+    height: 350px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.service-top-title{
+    color: #FF214F;
+}
+
+.service-top-header{
+    font-weight: bold;
+}
+
+.service-top-desc{
+    margin-top: 30px;
+}
+
+.service-grid-outer{
+    width: 100%;
+    height: auto;
+}
+
+.service-grid-inner{
+    height: 420px;
+    background-color: #1A1A1A;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.grid1{   
+    background-image: url('https://images01.nicepage.com/2c/36/2c363cea606f515e74b1e427f2b437c0.jpeg');
+    background-size: cover;
+    background-position: center;
+}   
+
+.grid3{   
+    background-image: url('https://images01.nicepage.com/9b/3f/9b3fb50d7f1060045a2fb67bc06f4802.jpeg');
+    background-size: cover;
+    background-position: center;
+}  
+
+.link, .service-grid-title{
+    color: #FF214F;
+}
+
+.service-grid-header{
+    color: white;
+}
+
+.service-grid-desc{
+    color: #bdc3c7;
+}
+
+/* Service area */
+
+/* About area */
+
+.about-outer{
+    width: 100%;
+    height: 520px;
+    position: relative;
+}
+
+.about-outer img{
+    width: 100%;
+    height: 100%;
+    filter: blur(1px);
+}
+
+.dark-shadow-outer{
+    background-color: rgba(19, 15, 64,0.7);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-content{
+    width: 600px;
+    height: 80%;
+    border: 1px solid white;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about-title{
+    color: #FF214F;
+    text-align: center;
+}
+
+.about-header{
+    color: white;
+    text-align: center;
+}
+/* About area */
+
+/* Contact area */
+
+.contact-area-outer{
+    width: 100%;
+    height: 500px;
+    background-color: #000000;
+}
+
+.contact-inner{
+    display: flex;
+    height: 100%;
+    justify-content: center;
+}
+
+.contact-left{
+    flex: 1;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact-right{
+    flex: 1;
+    height: 100%;
+    padding: 20px;
+}
+
+.contact-email{
+    color: #FF214F;
+}
+
+.contact-header-title, .contact-address, .contact-number{
+    color: white;
+}
+
+
+
+@media only screen and (max-width:992px){
+    .contact-inner{
+        display: block;
+    }
+
+    .contact-left, .contact-right{
+        height: 500px;
+    }
+
+    .contact-area-outer{
+        width: 1000px;
+    }
+}
+
+
+/* Contact area */
